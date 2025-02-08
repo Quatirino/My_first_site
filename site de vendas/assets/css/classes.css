@@ -1,0 +1,23 @@
+.main-bg {
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 5rem;
+} 
+
+.section {
+    min-height: 100vh;
+}
+
+/* O local em que você estilize um documento também pode influenciar na especificidade (preferência) no navegador  */
